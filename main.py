@@ -1,4 +1,3 @@
-print("Telegram Publisher запущен!")
 import os
 import telebot
 
