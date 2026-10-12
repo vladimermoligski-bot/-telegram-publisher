@@ -1,7 +1,7 @@
 import os
 import telebot
 
-BOT_TOKEN = os.getenv(“TELEGRAM_BOT_TOKEN”)
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 if not BOT_TOKEN:
 raise RuntimeError(“Не задан TELEGRAM_BOT_TOKEN в настройках облака”)
